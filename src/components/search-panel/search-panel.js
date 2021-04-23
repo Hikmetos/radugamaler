@@ -10,6 +10,7 @@ export default class SearchPanel extends Component {
         }
     }
     searchCity(e) {
+        this.props.onCityFilter(e.target.value.length === 0 ? "" : '');
         this.setState({
             cityName : e.target.value, 
             values : this.props.city.filter((item) => {
@@ -18,6 +19,7 @@ export default class SearchPanel extends Component {
         })
     }
     clickCity(e, nav) {
+        this.props.onCityFilter(nav);
         this.setState({
             cityName : nav,
             values : null
