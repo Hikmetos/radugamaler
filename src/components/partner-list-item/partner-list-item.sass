@@ -1,0 +1,48 @@
+.partner-item
+    width: 100%
+    min-height: 100px
+    &__title
+        font-family: Roboto
+        font-style: normal
+        font-weight: 500
+        font-size: 28px
+        color: #373F46
+    &__descr
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+    &__adress
+        font-size: 18px
+        font-style: normal
+        font-weight: normal
+        color: #373F46
+        position: relative
+        &::before
+            content: url("./img/address.svg")
+            position: absolute
+            left: -28px
+    &__contacts
+        display: flex
+        flex-direction: column
+        &_tel, &_mail
+            color: #373F46
+            font-size: 18px
+            font-weight: normal
+            text-decoration: none
+            &:hover
+                color: #373F46
+                text-decoration: none
+        &_tel
+            position: relative
+            &::before
+                content: url("./img/phone.svg")
+                display: block
+                position: absolute
+                left: -29px
+        &_mail
+            position: relative
+            &::before
+                content: url("./img/mail.svg")
+                display: block
+                position: absolute
+                left: -29px
+
