@@ -23,7 +23,7 @@
             ]
         },
         {
-            "id": 1,
+            "id": 2,
             "name" : "Топлинг",
             "regions" : "Russia",
             "regionCode": "KZ",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "id": 1,
+            "id": 3,
             "name" : "RadugaMaler",
             "regions" : "Russia",
             "regionCode": "RU",
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "id": 1,
+            "id": 4,
             "name" : "RadugaMaler",
             "regions" : "Russia",
             "regionCode": "RU",
@@ -77,6 +77,93 @@
             "address" : {
                 "index" : "347909",
                 "city" : "Ростов-на-Дону",
+                "street" : "ул. Чехова",
+                "home" : "25/4"
+            },
+            "social" : [
+                { "name" : "vk", "link" : "https://vk.com/feed"},
+                { "name" : "inst", "link" : "https://vk.com/feed"},
+                { "name" : "tg", "link" : "https://vk.com/feed"},
+                { "name" : "inst", "link" : "https://vk.com/feed"},
+                { "name" : "wa", "link" : "https://vk.com/feed"}
+            ]
+        },
+        {
+            "id": 4,
+            "name" : "RadugaMaler",
+            "regions" : "Russia",
+            "regionCode": "RU",
+            "phone" : "+79287778479",
+            "mail" : "memaikl@mail.ru",
+            "webSite": "https://vk.com/feed",
+            "address" : {
+                "index" : "347909",
+                "city" : "Ростов-на-Дону",
+                "street" : "ул. Чехова",
+                "home" : "25/4"
+            },
+            "social" : [
+                { "name" : "vk", "link" : "https://vk.com/feed"},
+                { "name" : "inst", "link" : "https://vk.com/feed"},
+                { "name" : "tg", "link" : "https://vk.com/feed"},
+                { "name" : "inst", "link" : "https://vk.com/feed"},
+                { "name" : "wa", "link" : "https://vk.com/feed"}
+            ]
+        },
+        {
+            "id": 4,
+            "name" : "RadugaMaler",
+            "regions" : "Russia",
+            "regionCode": "RU",
+            "phone" : "+79287778479",
+            "mail" : "memaikl@mail.ru",
+            "webSite": "https://vk.com/feed",
+            "address" : {
+                "index" : "347909",
+                "city" : "Ростов-на-Дону",
+                "street" : "ул. Чехова",
+                "home" : "25/4"
+            },
+            "social" : [
+                { "name" : "vk", "link" : "https://vk.com/feed"},
+                { "name" : "inst", "link" : "https://vk.com/feed"},
+                { "name" : "tg", "link" : "https://vk.com/feed"},
+                { "name" : "inst", "link" : "https://vk.com/feed"},
+                { "name" : "wa", "link" : "https://vk.com/feed"}
+            ]
+        },
+        {
+            "id": 4,
+            "name" : "Вахцентр",
+            "regions" : "Russia",
+            "regionCode": "UA",
+            "phone" : "+79287778479",
+            "mail" : "memaikl@mail.ru",
+            "webSite": "https://vk.com/feed",
+            "address" : {
+                "index" : "347909",
+                "city" : "Киев",
+                "street" : "ул. Чехова",
+                "home" : "25/4"
+            },
+            "social" : [
+                { "name" : "vk", "link" : "https://vk.com/feed"},
+                { "name" : "inst", "link" : "https://vk.com/feed"},
+                { "name" : "tg", "link" : "https://vk.com/feed"},
+                { "name" : "inst", "link" : "https://vk.com/feed"},
+                { "name" : "wa", "link" : "https://vk.com/feed"}
+            ]
+        },        {
+            "id": 14,
+            "name" : "Лестрой",
+            "regions" : "Russia",
+            "regionCode": "AZ",
+            "phone" : "+79287778479",
+            "mail" : "memaikl@mail.ru",
+            "webSite": "https://vk.com/feed",
+            "address" : {
+                "index" : "347909",
+                "city" : "Баку",
                 "street" : "ул. Чехова",
                 "home" : "25/4"
             },
