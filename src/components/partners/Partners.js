@@ -7,10 +7,7 @@ import "./partners.sass"
 export default class Partners extends Component {
     constructor(props) {
         super(props);
-        this.uniqueCityList = () => {
-            const newCityList = new Set(this.props.partners.map( name => name.address.city));
-            return [...newCityList];
-        }
+
         this.state = {
             regionsFilter : "",
             cityFilter : ""
@@ -29,21 +26,25 @@ export default class Partners extends Component {
         })
         return partnerFil
     }
-
-    regionsFilterFunc(regions) {
+    getUniqueCityList(list) {
+        const newList = new Set(list.map( name => name.address.city));
+        return [...newList];
+    }
+    getRegionsFilter(regions) {
         this.setState({regionsFilter : this.state.regionsFilter === regions ? "" : regions })
     }
-    cityFilterFunc(city) {
+    getCityFilter(city) {
         this.setState({cityFilter : city.length === 0 ? "" : city})
     }
     render() {
+        const {partners} = this.props;
         const {regions} = this.props;
         return (
             <div className="partners">
                 <div className="partners__regions">
-                    <RegionFilter regions={regions} onRegionsFilter={(e) => this.regionsFilterFunc(e)}/>
+                    <RegionFilter regions={regions} onRegionsFilter={(e) => this.getRegionsFilter(e)}/>
                 </div>
-                <SearchPanel city={this.uniqueCityList()} onCityFilter={(e) => this.cityFilterFunc(e)}/>
+                <SearchPanel city={this.getUniqueCityList(partners)} onCityFilter={(e) => this.getCityFilter(e)}/>
                 <PartnerListItem partners={this.partnersFilter()}/>
             </div>
         )

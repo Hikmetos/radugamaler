@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import AppHeader from '../app-header';
-import Partners from "../partners/partners";
+import Partners from "../partners/Partners";
 
 import './app.sass';
 

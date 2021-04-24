@@ -20,21 +20,13 @@ export default class RegionFilter extends Component {
         const {regions} = this.props;
         const {important} = this.state;
         console.log(this.state);
+        console.log(regions);
         const elements = regions.map((item) => {
-            const {region} = item;
+            const {country} = item;
             const {code} = item;
-            if (this.state.code === code && important ) {
                 return (
-                    <button type="button" className="button-name important"  data-code={code} key={code} onClick={(e) => this.onImportant(code, e)} >{region}</button>
+                    <button type="button" className={`button-name${this.state.code === code && important ? ' important' : ''}`}  data-code={code} key={code} onClick={(e) => this.onImportant(code, e)} >{country}</button>
                 )
-            } else {
-                return (
-                    <button type="button" className="button-name"  data-code={code} key={code} onClick={(e) => this.onImportant(code, e)}>{region}</button>
-                    
-                    
-                )
-            }
-
         });
         return elements;
     }

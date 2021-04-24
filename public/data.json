@@ -9,7 +9,9 @@
             "mail" : "memaikl@mail.ru",
             "webSite": "https://vk.com/feed",
             "address" : {
+                "code" :  "RU",
                 "index" : "347909",
+                "country" : "Россия",
                 "city" : "Краснодар",
                 "street" : "ул. Чехова",
                 "home" : "25/4"
@@ -23,147 +25,42 @@
             ]
         },
         {
-            "id": 2,
-            "name" : "Топлинг",
+            "id": 1,
+            "name" : "RadugaMaler",
             "regions" : "Russia",
             "regionCode": "KZ",
             "phone" : "+79287778479",
             "mail" : "memaikl@mail.ru",
             "webSite": "https://vk.com/feed",
             "address" : {
+                "code" :  "KZ",
                 "index" : "347909",
+                "country" : "Казахстан",
+                "city" : "Краснодар",
+                "street" : "ул. Чехова",
+                "home" : "25/4"
+            },
+            "social" : [
+                { "name" : "vk", "link" : "https://vk.com/feed"},
+                { "name" : "inst", "link" : "https://vk.com/feed"},
+                { "name" : "tg", "link" : "https://vk.com/feed"},
+                { "name" : "inst", "link" : "https://vk.com/feed"},
+                { "name" : "wa", "link" : "https://vk.com/feed"}
+            ]
+        },
+        {
+            "id": 1,
+            "name" : "RadugaMaler",
+            "regions" : "Russia",
+            "regionCode": "RU",
+            "phone" : "+79287778479",
+            "mail" : "memaikl@mail.ru",
+            "webSite": "https://vk.com/feed",
+            "address" : {
+                "code" :  "KZ",
+                "index" : "347909",
+                "country" : "Казахстан",
                 "city" : "Таганрог",
-                "street" : "ул. Чехова",
-                "home" : "25/4"
-            },
-            "social" : [
-                { "name" : "vk", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "tg", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "wa", "link" : "https://vk.com/feed"}
-            ]
-        },
-        {
-            "id": 3,
-            "name" : "RadugaMaler",
-            "regions" : "Russia",
-            "regionCode": "RU",
-            "phone" : "+79287778479",
-            "mail" : "memaikl@mail.ru",
-            "webSite": "https://vk.com/feed",
-            "address" : {
-                "index" : "347909",
-                "city" : "Таганрог",
-                "street" : "ул. Чехова",
-                "home" : "25/4"
-            },
-            "social" : [
-                { "name" : "vk", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "tg", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "wa", "link" : "https://vk.com/feed"}
-            ]
-        },
-        {
-            "id": 4,
-            "name" : "RadugaMaler",
-            "regions" : "Russia",
-            "regionCode": "RU",
-            "phone" : "+79287778479",
-            "mail" : "memaikl@mail.ru",
-            "webSite": "https://vk.com/feed",
-            "address" : {
-                "index" : "347909",
-                "city" : "Ростов-на-Дону",
-                "street" : "ул. Чехова",
-                "home" : "25/4"
-            },
-            "social" : [
-                { "name" : "vk", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "tg", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "wa", "link" : "https://vk.com/feed"}
-            ]
-        },
-        {
-            "id": 4,
-            "name" : "RadugaMaler",
-            "regions" : "Russia",
-            "regionCode": "RU",
-            "phone" : "+79287778479",
-            "mail" : "memaikl@mail.ru",
-            "webSite": "https://vk.com/feed",
-            "address" : {
-                "index" : "347909",
-                "city" : "Ростов-на-Дону",
-                "street" : "ул. Чехова",
-                "home" : "25/4"
-            },
-            "social" : [
-                { "name" : "vk", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "tg", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "wa", "link" : "https://vk.com/feed"}
-            ]
-        },
-        {
-            "id": 4,
-            "name" : "RadugaMaler",
-            "regions" : "Russia",
-            "regionCode": "RU",
-            "phone" : "+79287778479",
-            "mail" : "memaikl@mail.ru",
-            "webSite": "https://vk.com/feed",
-            "address" : {
-                "index" : "347909",
-                "city" : "Ростов-на-Дону",
-                "street" : "ул. Чехова",
-                "home" : "25/4"
-            },
-            "social" : [
-                { "name" : "vk", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "tg", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "wa", "link" : "https://vk.com/feed"}
-            ]
-        },
-        {
-            "id": 4,
-            "name" : "Вахцентр",
-            "regions" : "Russia",
-            "regionCode": "UA",
-            "phone" : "+79287778479",
-            "mail" : "memaikl@mail.ru",
-            "webSite": "https://vk.com/feed",
-            "address" : {
-                "index" : "347909",
-                "city" : "Киев",
-                "street" : "ул. Чехова",
-                "home" : "25/4"
-            },
-            "social" : [
-                { "name" : "vk", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "tg", "link" : "https://vk.com/feed"},
-                { "name" : "inst", "link" : "https://vk.com/feed"},
-                { "name" : "wa", "link" : "https://vk.com/feed"}
-            ]
-        },        {
-            "id": 14,
-            "name" : "Лестрой",
-            "regions" : "Russia",
-            "regionCode": "AZ",
-            "phone" : "+79287778479",
-            "mail" : "memaikl@mail.ru",
-            "webSite": "https://vk.com/feed",
-            "address" : {
-                "index" : "347909",
-                "city" : "Баку",
                 "street" : "ул. Чехова",
                 "home" : "25/4"
             },
@@ -177,13 +74,13 @@
         }
     ],
     "data" : [
-        {"region": "Россия", "important" : false, "code" : "RU"},
-        {"region": "Казахстан", "important": false, "code": "KZ"},
-        {"region": "Азербайждан", "important": false, "code": "AZ"},
-        {"region": "Украина", "important": false, "code": "UA"},
-        {"region": "Белорусия", "important": false, "code": "BL"},
-        {"region": "Армения", "important": false, "code": "AM"},
-        {"region": "Киргизия", "important": false, "code": "KG"},
-        {"region": "Узбекистан", "important": false, "code": "UZ"}
+        {"country": "Россия", "important" : false, "code" : "RU"},
+        {"country": "Казахстан", "important": false, "code": "KZ"},
+        {"country": "Азербайждан", "important": false, "code": "AZ"},
+        {"country": "Украина", "important": false, "code": "UA"},
+        {"country": "Белорусия", "important": false, "code": "BL"},
+        {"country": "Армения", "important": false, "code": "AM"},
+        {"country": "Киргизия", "important": false, "code": "KG"},
+        {"country": "Узбекистан", "important": false, "code": "UZ"}
 ]
 }
