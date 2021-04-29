@@ -10,7 +10,8 @@ export default class Partners extends Component {
 
         this.state = {
             regionsFilter : "",
-            cityFilter : ""
+            cityFilter : "",
+            showingPartnersList: "list"
         }
     }
     partnersFilter() {
@@ -44,7 +45,8 @@ export default class Partners extends Component {
                 <div className="partners__regions">
                     <RegionFilter regions={regions} onRegionsFilter={(e) => this.getRegionsFilter(e)}/>
                 </div>
-                <SearchPanel city={this.getUniqueCityList(partners)} onCityFilter={(e) => this.getCityFilter(e)}/>
+                <div className="partners__search"><SearchPanel city={this.getUniqueCityList(partners)} onCityFilter={(e) => this.getCityFilter(e)}/> </div>
+
                 <PartnerListItem partners={this.partnersFilter()}/>
             </div>
         )
